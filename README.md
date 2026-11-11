@@ -31,3 +31,21 @@ python3 -m http.server 8080
 [查看 MP4 视频](videos/he-jiachen-intro-30s.mp4) · [下载视频](https://github.com/jiaai1011/personal-website/raw/refs/heads/main/videos/he-jiachen-intro-30s.mp4)
 
 1920 × 1080 横屏，30 秒，包含原创电子配乐和节奏转场，已修正柳树场景的背景黑斑；不含联系方式。使用 Remotion 制作。
+
+## 视频源码与播放页
+
+- [Remotion 视频工程](remotion/)：完整分镜、转场、柳树动画、照片和配乐，支持修改与导出。
+- [视频播放页源码](video/index.html)：响应式 HTML 播放器，支持在线播放与下载。
+- [在线观看](https://he-jiachen-home-1109.oakendelta8.chatgpt.site/video/)
+
+编辑视频：
+
+```sh
+cd remotion
+npm install
+npm run studio
+# 导出 MP4
+npm run render
+```
+
+预览播放页：在仓库根目录启动上面的 HTTP 服务，然后访问 `/video/`。
