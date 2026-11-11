@@ -25,3 +25,9 @@ python3 -m http.server 8080
 - `vendor/`：Three.js 模块及许可证。
 
 这是无需构建的静态网站，部署时上传本目录的网页和资源文件即可。
+
+## 30 秒个人介绍视频
+
+[查看 MP4 视频](videos/he-jiachen-intro-30s.mp4) · [下载视频](https://github.com/jiaai1011/personal-website/raw/refs/heads/main/videos/he-jiachen-intro-30s.mp4)
+
+1920 × 1080 横屏，30 秒，包含原创电子配乐和节奏转场，已修正柳树场景的背景黑斑；不含联系方式。使用 Remotion 制作。
